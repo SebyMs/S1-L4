@@ -112,6 +112,9 @@ iframe {
 form {
   margin-left: 8px;
 }
+input {
+  border-bottom: 3px dotted #ccc;
+}
 button {
   background-color: blue;
   color: white;
@@ -126,7 +129,8 @@ section div {
 }
 
 section div p:last-child {
-  float: right;
+  margin-top: 10px;
+  text-align: end;
 }
 
 footer {
