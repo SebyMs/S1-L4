@@ -8,7 +8,7 @@ body > div {
   font-family: "Poppins", sans-serif;
   padding-top: 20px;
 }
-
+/* Header section */
 header {
   text-align: center;
   margin-inline: auto;
@@ -29,12 +29,7 @@ header {
   line-height: 30px;
   color: white;
 }
-
-#intestazione {
-  margin-bottom: 10px;
-  color: grey;
-}
-
+/* Main */
 main {
   width: 300px;
   background-color: rgb(252, 252, 252);
@@ -44,31 +39,56 @@ main {
   box-shadow: 18px 16px 9px -7px rgba(0, 0, 0, 0.1);
 }
 
+p span {
+  color: fuchsia;
+}
+
+p a {
+  color: fuchsia;
+}
+
+/* TItolo */
 div h1 {
   font-size: 30px;
   margin-bottom: 10px;
 }
-
+/* Intestazione */
+#intestazione {
+  margin-bottom: 10px;
+  color: grey;
+}
+/* unordered list */
 ul {
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 20px;
 }
-
+/* ordered list */
 ol {
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 20px;
 }
+/* Span liste */
+ul span,
+ol span {
+  background-color: rgb(203, 199, 199);
+}
 
+/* Tabella */
 table {
   line-height: 20px;
   border-bottom: 1px solid blue;
   margin-left: 6px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+table caption {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 table th {
@@ -85,39 +105,44 @@ table tr {
   text-align: center;
 }
 
-table caption {
-  font-size: 20px;
-  margin-bottom: 10px;
+tr:nth-of-type(even) {
+  background-color: rgb(188, 178, 178);
 }
 
+/* video youtube */
 iframe {
   border-radius: 10px;
   margin-top: 20px;
 }
-
+/* Newletter */
 #Newsletter {
   background-color: rgb(203, 201, 201);
   padding: 10px;
   margin-top: 10px;
 }
 
+#Newsletter h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
 #Newsletter fieldset {
   margin-top: 10px;
 }
-
-#Newsletter h2 {
-  margin-bottom: 20px;
-}
-
-form {
-  margin-left: 8px;
-}
+/* barra email */
 input {
   border-bottom: 3px dotted #ccc;
 }
 button {
   background-color: blue;
   color: white;
+}
+/* articoli correlati */
+section h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 section div {
@@ -132,7 +157,7 @@ section div p:last-child {
   margin-top: 10px;
   text-align: end;
 }
-
+/* footer */
 footer {
   background: rgb(0, 255, 183);
   background: linear-gradient(90deg, rgb(43, 151, 120) 22%, rgb(24, 105, 111) 54%);
@@ -146,45 +171,10 @@ footer {
   color: white;
 }
 
-#margin {
-  margin-right: 100px;
-}
-
-#grassetto {
-  font-size: 30px;
-  text-align: center;
-}
-
-#grassetto1 {
-  font-size: 30px;
-  text-align: center;
-  margin-top: 10px;
-}
-
 #copyright {
   margin-bottom: 10px;
 }
 
 footer a {
   color: fuchsia;
-}
-
-#grey {
-}
-
-tr:nth-of-type(even) {
-  background-color: rgb(188, 178, 178);
-}
-
-p span {
-  color: fuchsia;
-}
-
-p a {
-  color: fuchsia;
-}
-
-ul span,
-ol span {
-  background-color: rgb(203, 199, 199);
 }
